@@ -4,6 +4,8 @@ import pygame as pg
 import sys
 import random
   #VARIABLES
+display_width = 576
+display_height = 1024
 # START PYGAME MODULES
 pygame.init()
 main_screen = pygame.display.set_mode ((576, 1024))
@@ -16,3 +18,4 @@ while True:
 
       pygame.display.update()
       clock.tick(90)
+
